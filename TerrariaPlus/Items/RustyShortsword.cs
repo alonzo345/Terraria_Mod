@@ -14,7 +14,7 @@ namespace TerrariaPlus.Items
 			item.melee = true; // Confirms that the item is indeed a melee item.
 			item.width = 16; // The width of the item in-game.
 			item.height = 16; // The height of the item in-game.
-			item.toolTip = "A Rusty Old Short Sword!"; // The displayed tool-tip in-game.
+			item.toolTip = "A Rusty Old Shortsword!"; // The displayed tool-tip in-game.
 			item.useTime = 11; // The amount of time it takes the item to be used.
 			item.useAnimation = 11; // The amount of time the animation is displayed.
 			item.useStyle = 3; // The use style of the item.
