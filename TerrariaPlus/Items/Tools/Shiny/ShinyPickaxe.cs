@@ -30,7 +30,7 @@ namespace TerrariaPlus.Items.Tools.Shiny
 		{
 			ModRecipe recipe = new ModRecipe(mod); // Required.
 			recipe.AddIngredient(null, "RustyPickaxe"); // The rquired ingredients.
-			recipe.AddTile(TileID.SharpeningStation); // The rquired crafting station.
+			recipe.AddTile(TileID.SharpeningStation); // The required crafting station.
 			recipe.SetResult(this); // The result of crafting.
 			recipe.AddRecipe(); // Required.
 		}
