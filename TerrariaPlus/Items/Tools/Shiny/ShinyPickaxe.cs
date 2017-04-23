@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaPlus.Items
+namespace TerrariaPlus.Items.Tools.Shiny
 {
 	public class ShinyPickaxe : ModItem
 	{
