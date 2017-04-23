@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace TerrariaPlus.Items
 {
-	public class RustyPickaxe : ModItem
+	public class RustyShortSword : ModItem
 	{
 		public override void SetDefaults()
 		{
