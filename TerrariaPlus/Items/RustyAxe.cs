@@ -17,7 +17,7 @@ namespace TerrariaPlus.Items
 			item.toolTip = "A Rusty Old Axe!"; // The displayed tool-tip in-game/
 			item.useTime = 26; // The amount of time it takes the item to be used.
 			item.useAnimation = 26; // The amount of time the animation is displayed.
-			item.axe = 45; // The pickaxe power of the item.
+			item.axe = 45; // The axe power of the item.
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 4.5f; // The knockback of the item.
 			item.value = Item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
