@@ -21,7 +21,7 @@ namespace TerrariaPlus.items
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 6; // The knockback of the item.
 			item.value = 10000; // The items value in PPGGSSCC.
-			item.rare = 0 // The font color and rarity of the item.
+			item.rare = 0; // The font color and rarity of the item.
 			item.UseSound = SoundID.Item1; // The sound the items make when used
 			item.autoReuse = true; // "Auto swing"
 		}
