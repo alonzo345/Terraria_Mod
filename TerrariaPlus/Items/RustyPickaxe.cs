@@ -20,7 +20,7 @@ namespace TerrariaPlus.items
 			item.pick = 220; // The pickaxe power of the item.
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 6; // The knockback of the item.
-			item.value = (0, 0, 15, 0); // The items value in PPGGSSCC.
+			item.value = 10000; // The items value in PPGGSSCC.
 			item.rare = 0 // The font color and rarity of the item.
 			item.UseSound = SoundID.Item1; // The sound the items make when used
 			item.autoReuse = true; // "Auto swing"
@@ -29,9 +29,19 @@ namespace TerrariaPlus.items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod); // Required.
-			recipe.AddIngredient(ItemID.AnyCopperPickaxe, 1 ); // The rquired ingredients.
+			recipe.AddIngredient(ItemID.CopperPickaxe, 1 ); // The rquired ingredients.
       			recipe.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
-			recipe.AddTile(ItemID.Workbench); // The rquired crafting station.
+			recipe.AddTile(ItemID.WorkBench); // The rquired crafting station.
+			recipe.SetResult(this); // The result of crafting.
+			recipe.AddRecipe(); // Required.
+		}
+		
+		public override void AddRecipes()
+		{
+			ModRecipe recipe = new ModRecipe(mod); // Required.
+			recipe.AddIngredient(ItemID.TinPickaxe, 1 ); // The rquired ingredients.
+      			recipe.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
+			recipe.AddTile(ItemID.WorkBench); // The rquired crafting station.
 			recipe.SetResult(this); // The result of crafting.
 			recipe.AddRecipe(); // Required.
 		}
