@@ -38,7 +38,7 @@ namespace TerrariaPlus.Items
 			ModRecipe recipe2 = new ModRecipe(mod); // Required.
 			recipe2.AddIngredient(ItemID.TinPickaxe, 1 ); // The rquired ingredients.
       			recipe2.AddIngredient(ItemID.Cobweb, 6 ); // The rquired ingredients.
-			recipe2.AddTile(ItemID.WorkBench); // The rquired crafting station.
+			recipe2.AddTile(ItemID.WorkBenches); // The rquired crafting station.
 			recipe2.SetResult(this); // The result of crafting.
 			recipe2.AddRecipe(); // Required.
 		}
