@@ -20,7 +20,7 @@ namespace TerrariaPlus.Items
 			item.pick = 40; // The pickaxe power of the item.
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 2; // The knockback of the item.
-			item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
+			item.value = Item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
 			item.rare = 1; // The font color and rarity of the item.
 			item.UseSound = SoundID.Item1; // The sound the items make when used
 			item.autoReuse = true; // "Auto swing"
