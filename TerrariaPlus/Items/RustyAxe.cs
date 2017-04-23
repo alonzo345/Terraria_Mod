@@ -22,7 +22,7 @@ namespace TerrariaPlus.Items
 			item.knockBack = 4.5f; // The knockback of the item.
 			item.value = Item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
 			item.rare = 1; // The font color and rarity of the item.
-			item.UseSound = SoundID.Item1; // The sound the items make when used
+			item.UseSound = SoundID.Item1; // The sound the items make when used.
 			item.autoReuse = true; // "Auto swing"
 		}
 
