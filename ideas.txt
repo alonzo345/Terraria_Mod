@@ -1,20 +1,5 @@
 Ideas:
 
+Idea #1:
 
-1.
-type:
-abilities:
-
-
-2.
-type:
-abilities:
-
-
-3.type:
-abilities:
-
-
-4.
-type:
-abilities:
+Rusty item + Shrpening Station = Shiny item (gold stats)
