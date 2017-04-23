@@ -29,8 +29,8 @@ namespace TerrariaPlus.Items.Tools.Rusty
 		public override void AddRecipes()
 		{
 			ModRecipe recipe1 = new ModRecipe(mod); // Required.
-			recipe1.AddIngredient(ItemID.CopperAxe, 1 ); // The rquired ingredients.
-      			recipe1.AddIngredient(ItemID.Cobweb, 6 ); // The rquired ingredients.
+			recipe1.AddIngredient(ItemID.CopperAxe, 1 ); // The required ingredients.
+      			recipe1.AddIngredient(ItemID.Cobweb, 6 ); // The required ingredients.
 			recipe1.AddTile(TileID.WorkBenches); // The rquired crafting station.
 			recipe1.SetResult(this); // The result of crafting.
 			recipe1.AddRecipe(); // Required.
