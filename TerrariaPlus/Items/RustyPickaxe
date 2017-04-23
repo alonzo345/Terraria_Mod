@@ -1,0 +1,40 @@
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace TerrariaPlus.items
+{
+	public class RustyPickaxe : ModItem
+	{
+		public override void SetDefaults()
+		{
+			item.name = "Rustic Pickaxe";
+			item.damage = 5;
+			item.melee = true;
+			item.width = 40;
+			item.height = 40;
+			item.toolTip = "A Rusty Old Pickaxe!";
+			item.useTime = 10;
+			item.useAnimation = 10;
+			item.pick = 220;
+			item.useStyle = 1;
+			item.knockBack = 6;
+			item.value = 10000;
+			item.rare = 0
+			item.UseSound = SoundID.Item1;
+			item.autoReuse = true;
+		}
+
+		public override void AddRecipes()
+		{
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ItemID.AnyCopperPickaxe, 1 );
+      recipe.AddIngredient(ItemID.Cobweb, 10 );
+			recipe.AddTile(ItemID.Workbench);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
+      }
+		}
+	}
+}
