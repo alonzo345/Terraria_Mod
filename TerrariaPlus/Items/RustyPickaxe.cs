@@ -29,18 +29,18 @@ namespace TerrariaPlus.items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe1 = new ModRecipe(mod); // Required.
-			recipe.AddIngredient(ItemID.CopperPickaxe, 1 ); // The rquired ingredients.
-      			recipe.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
-			recipe.AddTile(ItemID.WorkBench); // The rquired crafting station.
-			recipe.SetResult(this); // The result of crafting.
-			recipe.AddRecipe(); // Required.
+			recipe1.AddIngredient(ItemID.CopperPickaxe, 1 ); // The rquired ingredients.
+      			recipe1.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
+			recipe1.AddTile(ItemID.WorkBench); // The rquired crafting station.
+			recipe1.SetResult(this); // The result of crafting.
+			recipe1.AddRecipe(); // Required.
 			
 			ModRecipe recipe2 = new ModRecipe(mod); // Required.
-			recipe.AddIngredient(ItemID.TinPickaxe, 1 ); // The rquired ingredients.
-      			recipe.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
-			recipe.AddTile(ItemID.WorkBench); // The rquired crafting station.
-			recipe.SetResult(this); // The result of crafting.
-			recipe.AddRecipe(); // Required.
+			recipe2.AddIngredient(ItemID.TinPickaxe, 1 ); // The rquired ingredients.
+      			recipe2.AddIngredient(ItemID.Cobweb, 10 ); // The rquired ingredients.
+			recipe2.AddTile(ItemID.WorkBench); // The rquired crafting station.
+			recipe2.SetResult(this); // The result of crafting.
+			recipe2.AddRecipe(); // Required.
 		}
 	}
 }
