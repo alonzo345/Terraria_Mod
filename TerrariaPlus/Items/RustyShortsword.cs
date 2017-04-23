@@ -5,11 +5,11 @@ using Terraria.ModLoader;
 
 namespace TerrariaPlus.Items
 {
-	public class RustyShortSword : ModItem
+	public class RustyShortsword : ModItem
 	{
 		public override void SetDefaults()
 		{
-			item.name = "Rusty Short Sword"; // The item display name in-game.
+			item.name = "Rusty Shortsword"; // The item display name in-game.
 			item.damage = 8; // The amount of damage the item deals.
 			item.melee = true; // Confirms that the item is indeed a melee item.
 			item.width = 16; // The width of the item in-game.
@@ -28,14 +28,14 @@ namespace TerrariaPlus.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe1 = new ModRecipe(mod); // Required.
-			recipe1.AddIngredient(ItemID.CopperShortSword, 1 ); // The rquired ingredients.
+			recipe1.AddIngredient(ItemID.CopperShortsword, 1 ); // The rquired ingredients.
       			recipe1.AddIngredient(ItemID.Cobweb, 6 ); // The rquired ingredients.
 			recipe1.AddTile(TileID.WorkBenches); // The rquired crafting station.
 			recipe1.SetResult(this); // The result of crafting.
 			recipe1.AddRecipe(); // Required.
 			
 			ModRecipe recipe2 = new ModRecipe(mod); // Required.
-			recipe2.AddIngredient(ItemID.TinShortSword, 1 ); // The rquired ingredients.
+			recipe2.AddIngredient(ItemID.TinShortsword, 1 ); // The rquired ingredients.
       			recipe2.AddIngredient(ItemID.Cobweb, 6 ); // The rquired ingredients.
 			recipe2.AddTile(TileID.WorkBenches); // The rquired crafting station.
 			recipe2.SetResult(this); // The result of crafting.
