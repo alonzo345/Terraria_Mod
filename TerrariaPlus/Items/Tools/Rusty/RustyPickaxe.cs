@@ -37,8 +37,8 @@ namespace TerrariaPlus.Items.Tools.Rusty
 			
 			ModRecipe recipe2 = new ModRecipe(mod); // Required.
 			recipe2.AddIngredient(ItemID.TinPickaxe, 1 ); // The rquired ingredients.
-      			recipe2.AddIngredient(ItemID.Cobweb, 6 ); // The rquired ingredients.
-			recipe2.AddTile(TileID.WorkBenches); // The rquired crafting station.
+      			recipe2.AddIngredient(ItemID.Cobweb, 6 ); // The required ingredients.
+			recipe2.AddTile(TileID.WorkBenches); // The required crafting station.
 			recipe2.SetResult(this); // The result of crafting.
 			recipe2.AddRecipe(); // Required.
 		}
