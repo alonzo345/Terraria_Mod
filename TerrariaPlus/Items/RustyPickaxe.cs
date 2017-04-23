@@ -17,10 +17,10 @@ namespace TerrariaPlus.items
 			item.toolTip = "A Rusty Old Pickaxe!"; // The displayed tool-tip in-game/
 			item.useTime = 10; // The amount of time it takes the item to be used.
 			item.useAnimation = 10; // The amount of time the animation is displayed.
-			item.pick = 220; // The pickaxe power of the item.
+			item.pick = 40; // The pickaxe power of the item.
 			item.useStyle = 1; // The use style of the item.
-			item.knockBack = 6; // The knockback of the item.
-			item.value = 10000; // The items value in PPGGSSCC.
+			item.knockBack = 2; // The knockback of the item.
+			item.value = Item.buyPrice(0, 0 , 15, 0); // The items value in PPGGSSCC.
 			item.rare = 0; // The font color and rarity of the item.
 			item.UseSound = SoundID.Item1; // The sound the items make when used
 			item.autoReuse = true; // "Auto swing"
