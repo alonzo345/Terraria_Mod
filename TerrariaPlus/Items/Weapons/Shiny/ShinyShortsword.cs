@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaPlus.Items
+namespace TerrariaPlus.Items.Weapons.Shiny
 {
 	public class ShinyShortsword : ModItem
 	{
