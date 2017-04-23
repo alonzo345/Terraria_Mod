@@ -1,0 +1,3 @@
+author = alonzo345
+version = 0.1
+displayName = Terraria Plus
