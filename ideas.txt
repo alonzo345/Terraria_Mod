@@ -1,10 +1,13 @@
 Ideas:
 
-Idea #1: beetle boss  
-- 
-Idea #2: tinkerers workshop core
-- 
+Idea #1: Beetle Boss  
+- Between Plantera and Golem.
+- Encountered in the desert biome.
+Idea #2: Tinkerer's Workshop Core
+- single-use.
+- replaces the need for the tinkerer's workshop.
 
 Executed Ideas:
-- Rusty item + Shrpening Station = Shiny item (gold stats)
-- Golden Broadsword + Golden Shortsword = Dual Sword
+- Rusty Items (Starter item + cobweb)
+- Shiny Items (Shiny item at sharpening station)
+- "Dualsword" (Functions as both a shortsword and a broadsword)
