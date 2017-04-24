@@ -12,8 +12,8 @@ namespace TerrariaPlus.Items.Weapons.Dualsword
 			item.name = "Platinum Dualsword"; // The item display name in-game.
 			item.damage = 15; // The amount of damage the item deals.
 			item.melee = true; // Confirms that the item is indeed a melee item.
-			item.width = 32; // The width of the item in-game.
-			item.height = 32; // The height of the item in-game.
+			item.width = 16; // The width of the item in-game.
+			item.height = 16; // The height of the item in-game.
 			item.toolTip = "Left click to swing"; // The displayed tool-tip in-game.
       			item.toolTip2 = "Right click to stab"; // Another tool-tip.
 			item.useTime = 19; // The amount of time it takes the item to be used.
