@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaPlus.Items
+namespace TerrariaPlus.Items.Weapons.Dualsword
 {
 	public class GoldDualsword : ModItem
 	{
@@ -15,7 +15,7 @@ namespace TerrariaPlus.Items
 			item.width = 16; // The width of the item in-game.
 			item.height = 16; // The height of the item in-game.
 			item.toolTip = "Left click to swing"; // The displayed tool-tip in-game.
-      item.toolTip2 = "Right click to stab"; // Another tool-tip.
+      			item.toolTip2 = "Right click to stab"; // Another tool-tip.
 			item.useTime = 19; // The amount of time it takes the item to be used.
 			item.useAnimation = 19; // The amount of time the animation is displayed.
 			item.useStyle = 1; // The use style of the item.
@@ -26,13 +26,13 @@ namespace TerrariaPlus.Items
 			item.autoReuse = false; // "Auto swing"
 		}
     
-    public override bool AltFunctionUse(Player player)
+    		public override bool AltFunctionUse(Player player)
 		{
 			return true;
 		}
     
-    // The "Right click" method.
-    public override bool CanUseItem(Player player)
+    		// The "Right click" method.
+    		public override bool CanUseItem(Player player)
 		{
 			if (player.altFunctionUse == 2)
 			{
@@ -51,8 +51,8 @@ namespace TerrariaPlus.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod); // Required.
 			recipe.AddIngredient(ItemID.GoldShortsword, 1 ); // The rquired ingredients.
-      recipe.AddIngredient(ItemID.GoldBroadsword, 1 ); // The rquired ingredients.
-      recipe.AddIngredient(ItemID.GoldBar, 4 ); // The rquired ingredients.
+      			recipe.AddIngredient(ItemID.GoldBroadsword, 1 ); // The rquired ingredients.
+      			recipe.AddIngredient(ItemID.GoldBar, 4 ); // The rquired ingredients.
 			recipe.AddTile(TileID.Anvils); // The rquired crafting station.
 			recipe.SetResult(this); // The result of crafting.
 			recipe.AddRecipe(); // Required.
