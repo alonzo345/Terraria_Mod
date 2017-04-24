@@ -7,3 +7,4 @@ Idea #2: tinkerers workshop core
 
 Executed Ideas:
 - Rusty item + Shrpening Station = Shiny item (gold stats)
+- Golden Broadsword + Golden Shortsword = Dual Sword
