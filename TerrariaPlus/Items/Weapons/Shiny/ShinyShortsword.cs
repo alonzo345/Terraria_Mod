@@ -28,7 +28,7 @@ namespace TerrariaPlus.Items.Weapons.Shiny
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod); // Required.
-			recipe.AddIngredient(null, "RustyShortsword); // The rquired ingredients.
+			recipe.AddIngredient(null, "RustyShortsword"); // The rquired ingredients.
 			recipe.AddTile(TileID.SharpeningStation); // The rquired crafting station.
 			recipe.SetResult(this); // The result of crafting.
 			recipe.AddRecipe(); // Required.
