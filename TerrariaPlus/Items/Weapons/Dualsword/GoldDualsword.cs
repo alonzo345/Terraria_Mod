@@ -40,6 +40,7 @@ namespace TerrariaPlus.Items.Weapons.Dualsword
 				item.useTime = 10; // The amount of time it takes the item to be used.
 				item.useAnimation = 10; // The amount of time the animation is displayed.
 				item.useStyle = 3; // The use style of the item.
+				item.knockBack = 5; // The knockback of the item.
 				item.autoReuse = false; // "Auto swing"
 			}
 			else
@@ -48,6 +49,7 @@ namespace TerrariaPlus.Items.Weapons.Dualsword
 				item.useTime = 19; // The amount of time it takes the item to be used.
 				item.useAnimation = 19; // The amount of time the animation is displayed.
 				item.useStyle = 1; // The use style of the item.
+				item.knockBack = 4; // The knockback of the item.
 				item.autoReuse = false; // "Auto swing"
 			}
 			return base.CanUseItem(player);
