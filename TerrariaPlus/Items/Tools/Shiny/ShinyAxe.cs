@@ -14,7 +14,8 @@ namespace TerrariaPlus.Items.Tools.Shiny
 			item.melee = true; // Confirms that the item is indeed a melee item.
 			item.width = 16; // The width of the item in-game.
 			item.height = 16; // The height of the item in-game.
-			item.toolTip = "A Shiny new Axe!\r\nDivide axe power by 5"; // The displayed tool-tip in-game.
+			item.toolTip = "A Shiny new Axe!"; // The displayed tool-tip in-game.
+			item.toolTip2 = "Divide axe power by 5" // Another tool-tip.
 			item.useTime = 25;  // The amount of time it takes the item to be used.
 			item.useAnimation = 25; // The amount of time the animation is displayed.
 			item.axe = 55;  // The axe power of the item.
