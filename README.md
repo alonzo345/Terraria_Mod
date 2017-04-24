@@ -1,3 +1,3 @@
 # Terraria_Mod
 
-This is a mod for Terraria that tries to add to the game without changing its original content.
+Terraria Plus is a mod dedicated to extend the gameplay of Terraria from early-game to late-game.
