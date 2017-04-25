@@ -28,7 +28,7 @@ namespace TerrariaPlus.NPCs
 
 		public override float CanSpawn(NPCSpawnInfo spawnInfo)
 		{
-			return SpawnCondition.OverworldNightMonster.Chance * 0.5f;
+			return SpawnCondition.ZoneDesert.Chance * 0.5f;
 		}
 
 		public override void HitEffect(int hitDirection, double damage)
@@ -53,6 +53,10 @@ namespace TerrariaPlus.NPCs
       			if (Main.rand.Next(250) == 0)
 			{
 				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.ZombieArm);
+			}
+			if (Main.rand.Next(100) == 0)
+			{
+				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.PharaohsMask);
 			}
 			Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.SandBlock, (Main.rand.Next(4) + 1));
 		}
