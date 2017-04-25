@@ -22,7 +22,7 @@ namespace TerrariaPlus.Items.Weapons.Rusty
 			item.value = Item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
 			item.rare = 1; // The font color and rarity of the item.
 			item.UseSound = SoundID.Item1; // The sound the items make when used.
-			item.autoReuse = true; // "Auto swing"
+			item.autoReuse = false; // "Auto swing"
 		}
 
 		public override void AddRecipes()
