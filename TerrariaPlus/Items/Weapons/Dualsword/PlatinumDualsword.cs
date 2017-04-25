@@ -32,7 +32,7 @@ namespace TerrariaPlus.Items.Weapons.Dualsword
 		}
     
     		// The "Right click" method.
-    		public override bool UseItem(Player player)
+    		public override bool CanUseItem(Player player)
 		{
 			if (player.altFunctionUse == 2)
 			{
