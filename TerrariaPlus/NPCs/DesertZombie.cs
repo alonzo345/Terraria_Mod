@@ -28,7 +28,7 @@ namespace TerrariaPlus.NPCs
 
 		public override float CanSpawn(NPCSpawnInfo spawnInfo)
 		{
-			return SpawnCondition.ZoneDesert.Chance * 0.5f;
+			return Main.ZoneDesert ? 10f : 0f;
 		}
 
 		public override void HitEffect(int hitDirection, double damage)
