@@ -18,7 +18,7 @@ namespace TerrariaPlus.Items.Tools.Shiny
 			item.toolTip2 = "Divide axe power by 5"; // Another tool-tip.
 			item.useTime = 25;  // The amount of time it takes the item to be used.
 			item.useAnimation = 25; // The amount of time the animation is displayed.
-			item.axe = 55;  // The axe power of the item.
+			item.axe = (55 / 5);  // The axe power of the item.
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 4.5f; // The knockback of the item.
 			item.value = Item.buyPrice(0, 0, 60, 0); // The items value in PGSC.
