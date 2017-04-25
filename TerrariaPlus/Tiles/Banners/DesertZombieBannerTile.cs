@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
  
-namespace TerrariaPlus.Tiles.Banner
+namespace TerrariaPlus.Tiles.Banners
 {
     public class DesertZombieBannerTile : ModTile
     {
