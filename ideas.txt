@@ -6,7 +6,12 @@ Idea #1: Beetle Boss
 Idea #2: Tinkerer's Workshop Core
 - single-use.
 - replaces the need for the tinkerer's workshop.
-
+Idea #3: heaven biome
+-
+-
+Idea #4:
+-
+-
 Executed Ideas:
 - Rusty Items (Starter item + cobweb)
 - Shiny Items (Shiny item at sharpening station)
