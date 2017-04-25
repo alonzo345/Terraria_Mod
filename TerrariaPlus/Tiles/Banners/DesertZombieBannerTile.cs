@@ -4,9 +4,9 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
  
-namespace TutorialMOD.Tiles.Banner
+namespace TerrariaPlus.Tiles.Banner
 {
-    public class CustomBannerTile : ModTile
+    public class DesertZombieBannerTile : ModTile
     {
         public override void SetDefaults()
         {
@@ -20,12 +20,12 @@ namespace TutorialMOD.Tiles.Banner
             TileObjectData.newTile.StyleWrapLimit = 111;
             TileObjectData.addTile(Type);
             disableSmartCursor = true;
-            AddMapEntry(new Color(123, 44, 122), "Custom Banner");
+            AddMapEntry(new Color(123, 44, 122), "Desert Zombie Banner");
         }
  
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
-            Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType("CustomBannerItem"));
+            Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType("DesertZombieBannerItem"));
         }
  
         public override void NearbyEffects(int i, int j, bool closer)
