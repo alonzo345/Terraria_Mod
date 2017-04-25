@@ -15,10 +15,9 @@ namespace TerrariaPlus.Items.Tools.Rusty
 			item.width = 16; // The width of the item in-game.
 			item.height = 16; // The height of the item in-game.
 			item.toolTip = "A Rusty old Axe!"; // The displayed tool-tip in-game.
-			item.toolTip2 = "Divide axe power by 5"; // Another tool-tip.
 			item.useTime = 26; // The amount of time it takes the item to be used.
 			item.useAnimation = 26; // The amount of time the animation is displayed.
-			item.axe = 45; // The axe power of the item.
+			item.axe = (45 / 5); // The axe power of the item.
 			item.useStyle = 1; // The use style of the item.
 			item.knockBack = 4.5f; // The knockback of the item.
 			item.value = Item.buyPrice(0, 0, 15, 0); // The items value in PGSC.
