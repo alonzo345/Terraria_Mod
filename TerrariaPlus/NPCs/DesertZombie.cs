@@ -22,7 +22,7 @@ namespace TerrariaPlus.NPCs
 			Main.npcFrameCount[npc.type] = Main.npcFrameCount[NPCID.Zombie];
 			aiType = NPCID.Zombie;
 			animationType = NPCID.Zombie;
-      banner = npc.type;
+      			banner = npc.type;
 			bannerItem = mod.ItemType("DesertZombieBanner");
 		}
 
@@ -44,13 +44,13 @@ namespace TerrariaPlus.NPCs
 			}
 		}
     
-    public override void NPCLoot()
+    		public override void NPCLoot()
 		{
 			if (Main.rand.Next(50) == 0)
 			{
 				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.Shackle);
 			}
-      if (Main.rand.Next(250) == 0)
+      			if (Main.rand.Next(250) == 0)
 			{
 				Item.NewItem((int)npc.position.X, (int)npc.position.Y, npc.width, npc.height, ItemID.ZombieArm);
 			}
