@@ -38,6 +38,11 @@ namespace TerrariaPlus.NPCs
 				dust.scale *= 1f + Main.rand.Next(-30, 31) * 0.01f;
 			}
 		}
+		
+		public override float CanSpawn(NPCSpawnInfo spawnInfo)
+		{
+			return SpawnCondition.Desert.Chance * 0.1f && main.NightTime;
+		}
     
     		public override void NPCLoot()
 		{
