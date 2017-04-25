@@ -26,11 +26,6 @@ namespace TerrariaPlus.NPCs
 			bannerItem = mod.ItemType("DesertZombieBanner");
 		}
 
-		public override float CanSpawn(NPCSpawnInfo spawnInfo)
-		{
-			return Main.ZoneDesert ? 10f : 0f;
-		}
-
 		public override void HitEffect(int hitDirection, double damage)
 		{
 			for (int i = 0; i < 10; i++)
