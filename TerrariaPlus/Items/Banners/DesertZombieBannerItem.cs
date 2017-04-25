@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
  
-namespace TerrariaPlus.Items.Banner
+namespace TerrariaPlus.Items.Banners
 {
     public class DesertZombieBannerItem : ModItem
     {
