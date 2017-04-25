@@ -41,7 +41,7 @@ namespace TerrariaPlus.NPCs
 		
 		public override float CanSpawn(NPCSpawnInfo spawnInfo)
 		{
-			return SpawnCondition.Desert.Chance * 0.1f && main.NightTime;
+			return (spawnInfo.player.ZoneDesert && Main.night) ? 1f : 0f;
 		}
     
     		public override void NPCLoot()
