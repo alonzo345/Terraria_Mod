@@ -9,9 +9,10 @@ Idea #2: Tinkerer's Workshop Core
 Idea #3: Heaven Biome
 - Description needed...
 -
-Idea #4:
--
--
+Idea #4: Ultra-Recall Potion
+- Returns you to your last death location.
+- Death location is only saved for a minute.
+
 Executed Ideas:
 - Rusty Items (Starter item + cobweb)
 - Shiny Items (Shiny item at sharpening station)
