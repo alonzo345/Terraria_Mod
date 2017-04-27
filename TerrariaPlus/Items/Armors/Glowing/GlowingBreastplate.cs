@@ -27,7 +27,7 @@ namespace TerrariaPlus.Items.Armor.Glowing
 
         public override void UpdateEquip(Player player)
         {
-            player.statManaMax2 += 20;   //20 max mana
+            player.statManaMax2 += 20; 
         }
         public override void AddRecipes()  //How to craft this item
         {
