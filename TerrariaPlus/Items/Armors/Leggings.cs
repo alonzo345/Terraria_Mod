@@ -3,9 +3,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace YourModName.Items.Armor
+namespace TerrariaPlus.Items.Armors.Glowing
 {
-    public class Leggings : ModItem
+    public class GlowingLeggings : ModItem
     {
         public override bool Autoload(ref string name, ref string texture, IList<EquipType> equips)
         {
@@ -15,14 +15,13 @@ namespace YourModName.Items.Armor
 
         public override void SetDefaults()
         {
-            item.name = "Star Leggings";
+            item.name = "Glowing Leggings";
             item.width = 18;
             item.height = 18;
-            AddTooltip("This is a Star leg armor.");
-            AddTooltip2("5% increased movement speed");
+            AddTooltip("It glows");
             item.value = 10;
             item.rare = 2;
-            item.defense = 10;
+            item.defense = 2;
         }
 
         public override void UpdateEquip(Player player)
@@ -33,8 +32,8 @@ namespace YourModName.Items.Armor
         public override void AddRecipes()  //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Wood, 10);   //you need 10 Wood
-            recipe.AddTile(TileID.WorkBenches);   //at work bench
+            recipe.AddIngredient(ItemID.SilverBar, 15);   
+            recipe.AddTile(TileID.Anvil);   //at anvil
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
