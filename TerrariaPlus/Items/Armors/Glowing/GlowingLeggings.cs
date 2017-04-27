@@ -33,7 +33,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.SilverBar, 15);   
-            recipe.AddTile(TileID.Anvil);  
+            recipe.AddTile(TileID.AnyAnvil);  
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
