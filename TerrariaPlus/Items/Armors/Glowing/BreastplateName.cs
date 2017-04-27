@@ -3,9 +3,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace YourModName.Items.Armor
+namespace TerrariaPlus.Items.Armor.Glowing
 {
-    public class BreastplateName : ModItem
+    public class GlowingBreastplate : ModItem
     {
         public override bool Autoload(ref string name, ref string texture, IList<EquipType> equips)
         {
@@ -15,14 +15,14 @@ namespace YourModName.Items.Armor
 
         public override void SetDefaults()
         {
-            item.name = "Star Breastplate";
+            item.name = "Glowing Breastplate";
             item.width = 18;
             item.height = 18;
-            AddTooltip("This is a Star body armor.");
+            AddTooltip("It glows");
             AddTooltip2("+20 max mana");
             item.value = 10;
-            item.rare = 2;
-            item.defense = 15;
+            item.rare = 2; 
+            item.defense = 3;
         }
 
         public override void UpdateEquip(Player player)
@@ -32,8 +32,9 @@ namespace YourModName.Items.Armor
         public override void AddRecipes()  //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.Wood, 10);   //you need 10 Wood
-            recipe.AddTile(TileID.WorkBenches);   //at work bench
+            recipe.AddIngredient(ItemID.SilverBar, 20); 
+            recipe.AddIngredient(ItemID.GlowingMushroom, 40);
+            recipe.AddTile(TileID.Anvil);  
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
