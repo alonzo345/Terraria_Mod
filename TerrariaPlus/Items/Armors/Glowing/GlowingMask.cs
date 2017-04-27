@@ -30,7 +30,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
 		public override void UpdateArmorSet(Player player)
 		{
 			player.setBonus = "17% extra range damage";
-			player.rangeDamage *= 0.17f;
+			player.rangedDamage *= 0.17f;
 		}
 
 		public override void AddRecipes()
