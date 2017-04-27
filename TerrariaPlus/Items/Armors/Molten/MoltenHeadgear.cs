@@ -15,7 +15,7 @@ namespace TerrariaPlus.Items.Armors.Molten
 		public override void SetDefaults()
 		{
 			item.name = "Molten Headgear";
-			item.width = 18;
+			item.width = 20;
 			item.height = 18;
 			item.value = Item.buyPrice(0, 4, 50, 0);
 			item.rare = 3;
