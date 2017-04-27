@@ -18,7 +18,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
             item.name = "Glowing Leggings";
             item.width = 18;
             item.height = 18;
-            AddTooltip("It glows");
+            AddTooltip("5% increased movement speed")
             item.value = 10;
             item.rare = 2;
             item.defense = 2;
@@ -32,7 +32,8 @@ namespace TerrariaPlus.Items.Armors.Glowing
         public override void AddRecipes()  //How to craft this item
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.SilverBar, 15);   
+            recipe.AddIngredient(ItemID.SilverBar, 15); 
+            recipe.AddIngredient(ItemID.GlowingMushroom, 30);   
             recipe.AddTile(TileID.AnyAnvil);  
             recipe.SetResult(this);
             recipe.AddRecipe();
