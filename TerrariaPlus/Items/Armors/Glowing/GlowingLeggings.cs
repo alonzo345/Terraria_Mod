@@ -19,7 +19,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
             item.width = 18;
             item.height = 18;
             AddTooltip("5% increased movement speed")
-            item.value = 10;
+            item.value = Item.buyPrice(0, 1, 50, 0);
             item.rare = 2;
             item.defense = 2;
         }
