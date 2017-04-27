@@ -18,3 +18,5 @@ Executed Ideas:
 - Shiny Items (Shiny item at sharpening station)
 - "Dualsword" (Functions as both a shortsword and a broadsword)
 - "Desert Zombie" (A zombie that spawns in the desert)
+- "Molten Mask & Headgear" (Ranged and Mage counterparts of the Molten Helmet)
+- "Glowing Armor" (An early-game ranged armor)
