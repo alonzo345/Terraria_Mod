@@ -20,7 +20,7 @@ namespace TerrariaPlus.Items.Armor.Glowing
             item.height = 18;
             AddTooltip("It glows");
             AddTooltip2("+20 max mana");
-            item.value = 10;
+            item.value = Item.buyPrice(0, 1, 50, 0);
             item.rare = 2; 
             item.defense = 3;
         }
