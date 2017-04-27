@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace TerrariaPlus.Items.Armors
+namespace TerrariaPlus.Items.Armors.Molten
 {
 	public class MoltenHeadgear : ModItem
 	{
