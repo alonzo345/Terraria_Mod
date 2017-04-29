@@ -18,21 +18,22 @@ namespace TerrariaPlus.Items.Armor.Glowing
             item.name = "Glowing Breastplate";
             item.width = 18;
             item.height = 18;
-            AddTooltip("It glows");
-            AddTooltip2("+20 max mana");
             item.value = Item.buyPrice(0, 1, 50, 0);
             item.rare = 2; 
             item.defense = 3;
         }
 
-        public override void UpdateEquip(Player player)
-        {
-            player.statManaMax2 += 20; 
-        }
         public override void AddRecipes()  //How to craft this item
         {
-            ModRecipe recipe = new ModRecipe(mod);
+            ModRecipe recipe1 = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.SilverBar, 20); 
+            recipe.AddIngredient(ItemID.GlowingMushroom, 40);
+            recipe.AddTile(TileID.Anvils);  
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+  
+            ModRecipe recipe2 = new ModRecipe(mod);
+            recipe.AddIngredient(ItemID.TungstenBar, 20); 
             recipe.AddIngredient(ItemID.GlowingMushroom, 40);
             recipe.AddTile(TileID.Anvils);  
             recipe.SetResult(this);
