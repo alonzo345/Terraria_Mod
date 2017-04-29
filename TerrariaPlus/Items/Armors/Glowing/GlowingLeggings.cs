@@ -34,7 +34,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.SilverBar, 15); 
             recipe.AddIngredient(ItemID.GlowingMushroom, 30);   
-            recipe.AddTile(TileID.AnyAnvil);  
+            recipe.AddTile(TileID.Anvils);  
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
