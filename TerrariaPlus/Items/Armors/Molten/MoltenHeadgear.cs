@@ -38,7 +38,7 @@ namespace TerrariaPlus.Items.Armors.Molten
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.HellstoneBar, 10);
-			recipe.AddTile(TileID.AnyAnvil);
+			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
