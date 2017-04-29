@@ -25,7 +25,7 @@ namespace TerrariaPlus.Items.Armors.Glowing
 
 		public override bool IsArmorSet(Item head, Item body, Item legs)
 		{
-			return body.type == mod.ItemType("GlowingBreastplate") && legs.type == mod.ItemType ("GlowingLeggings");
+			return body.type == mod.ItemType("GlowingBreastplate") && legs.type == mod.ItemType("GlowingLeggings");
 		}
 
 		public override void UpdateArmorSet(Player player)
